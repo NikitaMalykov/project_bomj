@@ -1,0 +1,109 @@
+#carousel-links-mobile {
+    display: block;
+}
+
+#carousel-links-desktop {
+    display: none;
+}
+
+#links {
+    background-image: url(../img/linka.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+#links h3 {
+    height: 50px;
+    color: #37424f;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'HelveticaBold', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+}
+
+#links #carousel-links-mobile {
+    text-align: center;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+#links #carousel-links-mobile .carousel-item {
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+#links #carousel-links-mobile a {
+    color: #f1f1f1;
+    font-size: 60px;
+}
+
+#links #carousel-links-mobile .prev span,
+#links #carousel-links-mobile .next span {
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+@media (min-width: 992px) {
+    #carousel-links-mobile {
+        display: none;
+    }
+
+    #carousel-links-desktop {
+        display: block;
+    }
+
+    #links {
+        height: 500px;
+        background-attachment: fixed;
+        background-position: bottom center;
+    }
+
+    #links h3 {
+        height: 60px;
+        font-size: 24px;
+        letter-spacing: 10px;
+    }
+
+    #links #carousel-links-desktop {
+        margin: 60px 0;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    #links #carousel-links-desktop .carousel-wrapper {
+        margin-top: 165px;
+    }
+
+    #links #carousel-links-desktop .carousel-item {
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+
+    #links #carousel-links-desktop a {
+        color: #f1f1f1;
+        font-size: 60px;
+        margin-right: 120px;
+    }
+
+    #links #carousel-links-desktop a:last-child {
+        margin-right: 0;
+    }
+
+    #links #carousel-links-desktop .prev span,
+    #links #carousel-links-desktop .next span {
+        background-color: rgba(0, 0, 0, 0.4);
+        background-size: 50px;
+        height: 50px;
+        width: 50px;
+        margin-top: 30px;
+    }
+}

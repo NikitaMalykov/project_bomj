@@ -88,10 +88,9 @@
   }
 
   #about div img {
-    display: block;
+    display: grid;
     width: 198px;
-    margin-top: 38px;
-    margin-left: 60px;
+    place-self: center;
   }
 
   #about div .info {
