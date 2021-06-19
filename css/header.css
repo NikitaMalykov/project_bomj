@@ -1,0 +1,111 @@
+header .wrapper {
+  max-width: 575px;
+  min-width: 320px;
+  margin: auto;
+}
+
+header .wrapper .fixed {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+header .wrapper nav {
+  background-color: rgba(255, 255, 255, 0.01) !important;
+}
+
+header .wrapper img {
+  height: 60px;
+}
+
+header .wrapper nav .menu {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+header .wrapper nav .menu a {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'HelveticaBold', sans-serif;
+  color: #000 !important;
+  text-transform: uppercase;
+  height: 50px;
+  margin-top: -12px;
+  padding-top: 18px;
+  box-sizing: border-box;
+}
+
+header .wrapper nav .menu a.active {
+  background-color: #37424f;
+  color: #fff !important;
+  text-transform: uppercase;
+  height: 50px;
+  margin-top: -12px;
+  padding-top: 18px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 992px) {
+  header .wrapper {
+    max-width: 880px;
+  }
+
+  header .wrapper .fixed {
+    position: fixed;
+    z-index: 1;
+    width: 880px;
+  }
+
+  header .wrapper nav {
+    margin-top: -27px;
+  }
+
+  header .wrapper img {
+    height: 60px;
+    margin-bottom: 0;
+    position: relative;
+    top: 16px;
+    transition: ease 2s;
+  }
+
+  header .wrapper img:hover{
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transition: ease 2s;
+  }
+
+  header .wrapper nav .menu {
+    padding-top: 14px;
+    box-sizing: border-box;
+    height: 54px;
+    margin-left: 363px;
+    margin-bottom: -27px;
+    position: relative;
+    left: 39px;
+    border-radius: 20px;
+  }
+
+  header .wrapper nav div.menu a {
+    transform: rotate(0deg);
+    overflow: hidden;
+    transition: ease 3s;
+  }
+
+  header .wrapper nav div.menu a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: rotate(10deg);
+    overflow: hidden;
+    transition: ease 3s;
+    border-radius: 20px;
+    height: 50px;
+    margin-top: -12px;
+    padding-top: 18px;
+    box-sizing: border-box;
+  }
+
+  header .wrapper nav .menu a.active {
+    transform: rotate(10deg);
+    border-radius: 20px;
+  }
+}

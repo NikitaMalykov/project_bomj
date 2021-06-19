@@ -1,0 +1,33 @@
+footer .wrapper {
+  max-width: 575px;
+  min-width: 320px;
+  margin: auto;
+}
+
+footer .wrapper p {
+  height: 50px;
+  color: #37424f;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'HelveticaBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+}
+
+@media (min-width: 992px) {
+  footer .wrapper {
+    max-width: 880px;
+  }
+
+  footer .wrapper p {
+    height: 100px;
+    padding-top: 45px;
+    font-size: 14px;
+    letter-spacing: 10px;
+    box-sizing: border-box;
+  }
+}

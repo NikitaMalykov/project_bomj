@@ -1,0 +1,97 @@
+main .wrapper {
+  max-width: 575px;
+  min-width: 320px;
+  margin: auto;
+}
+
+#myPresentation {
+  background-image: url(../img/bg_main.jpg);
+  background-position: top right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+#myPresentation h2 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'HelveticaBold', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+  padding-top: 20px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+  box-sizing: border-box;
+}
+
+#myPresentation h3 {
+  color: #fff;
+  letter-spacing: 2px;
+  font-family: 'HelveticaBold', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+  padding-top: 10px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+  box-sizing: border-box;
+}
+
+@media (max-width: 350px) {
+  #myPresentation h3 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  main .wrapper {
+    max-width: 880px;
+  }
+
+  #myPresentation {
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+  }
+
+  #myPresentation h2 {
+    letter-spacing: 10px;
+    font-size: 28px;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+  }
+
+  #myPresentation h3 {
+    letter-spacing: 10px;
+    font-size: 22px;
+    position: absolute;
+    top: 90%;
+    left: 5%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #myPresentation h2 {
+    letter-spacing: 15px;
+    font-size: 36px;
+  }
+
+  #myPresentation h3 {
+    letter-spacing: 15px;
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 2000px) {
+  #myPresentation h2 {
+    letter-spacing: 15px;
+    font-size: 48px;
+  }
+
+  #myPresentation h3 {
+    letter-spacing: 15px;
+    font-size: 36px;
+    top: 85%;
+  }
+}

@@ -1,0 +1,22 @@
+@import "reset.css";
+@import "header.css";
+@import "my-presentation.css";
+@import "about.css";
+@import "materials.css";
+@import "excursion.css";
+@import "footer.css";
+@import "modal.css";
+
+@font-face {
+  font-family: "HelveticaRegular";
+  src: url("../fonts/HelveticaRegular.ttf");
+}
+
+@font-face {
+  font-family: "HelveticaBold";
+  src: url("../fonts/HelveticaBold.ttf");
+}
+
+body {
+  background-color: #f1f1f1;
+}
